@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="519a60e2-f610-4cf7-9ec7-9b72e4be89b3" name="Changes" comment="feat: test 2 miniProject">
+      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Exports/PokemonsExport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Controllers/PokemonController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Controllers/PokemonFavoriteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Requests/GetPokemonFavoritesRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Requests/GetPokemonsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Http/Requests/PostPokemonsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Interfaces/PokemonFavoriteRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Interfaces/PokemonRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Models/Pokemon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Models/PokemonFavorite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Repositories/PokemonFavoritesRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Repositories/PokemonRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/app/Traits/APIResponseTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/excel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/miniProject/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ferriLH"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="080cbba1-b1b5-420a-9de1-9acea50c8cb2" />
+        <option name="url" value="https://ferriLH@github.com/ferriLH/technicalTestOrdivo.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php@7.3/7.3.33_7/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/miniProject/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/queue" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/testing" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/hashing" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/auth" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/broadcasting" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/illuminate/encryption" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/lumen-framework" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/composer" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/jenssegers/mongodb" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/mongodb/mongodb" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/league/config" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/miniProject/vendor/symfony/routing" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2WO4PMTb2oED8NSyK9YPvOp9eG2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ferrilasmihalim/project/technicalTestOrdivo/miniProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/miniProject" />
+      <recent name="$PROJECT_DIR$/miniProject/config" />
+      <recent name="$PROJECT_DIR$/miniProject/app" />
+      <recent name="$PROJECT_DIR$/miniProject/app/Models" />
+      <recent name="$PROJECT_DIR$/miniProject/app/Http/Controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/miniProject/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="519a60e2-f610-4cf7-9ec7-9b72e4be89b3" name="Changes" comment="" />
+      <created>1696590267467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696590267467</updated>
+      <workItem from="1696590268483" duration="1611000" />
+      <workItem from="1696643121635" duration="4185000" />
+      <workItem from="1696659480224" duration="4013000" />
+      <workItem from="1696673050511" duration="5965000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: test 2 miniProject">
+      <option name="closed" value="true" />
+      <created>1696678754315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696678754315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: test 2 miniProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: test 2 miniProject" />
+  </component>
+</project>
