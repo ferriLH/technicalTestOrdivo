@@ -27,24 +27,24 @@
     echo get_scheme("<div><div sc-rootbear title='Oh My'>Hello <i sc-org>World</i></div></div>");
     echo "\n";
 
-    function get_scheme_challenge($get) {
+    function get_scheme_challenge($element) {
         $tags = [];
-        for ($i=0; $i < $get->length; $i++) {
-            if($get->item($i)->hasAttributes())
+        for ($i=0; $i < $element->length; $i++) {
+            if($element->item($i)->hasAttributes())
             {
                 $attr = [];
-                foreach ($get->item($i)->attributes as $attribName => $attribNodeVal)
+                foreach ($element->item($i)->attributes as $attribName => $attribNodeVal)
                 {
                     if (substr($attribName, 0, 3) == "sc-")
                     {
-                        $attr[$attribName] = $attribNodeVal->value;
+                        $attr[substr($attribName,3)] = $attribNodeVal->value;
                     }
                 }
-                
+
                 array_push($tags, $attr);
-                if($get->item($i)->childNodes->length > 0)
+                if($element->item($i)->childNodes->length > 0)
                 {
-                    array_push($tags, array_filter(get_scheme_challenge($get->item($i)->childNodes))  );
+                    array_push($tags, array_filter(get_scheme_challenge($element->item($i)->childNodes))  );
                 }
             }
         }
@@ -70,5 +70,5 @@
     echo "\n";
     echo "Input: “<div sc-prop sc-alias=”” sc-type=”Organization”><div sc-name=”Alice”>Hello <i sc-
 name=”Wonderland”>World</i></div></div>”";
-    echo "\nOutput: ";
-    echo json_encode(array_filter(get_scheme_challenge($get2)));
+    echo "\nOutput: \n";
+    echo json_encode(array_filter(get_scheme_challenge($get2)), JSON_PRETTY_PRINT);
